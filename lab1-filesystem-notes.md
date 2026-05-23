@@ -1,7 +1,6 @@
 # Lab 1 — Filesystem Exploration
 
 ## Environment
-=======
 # Lab 1 - Filesystem Exploration
 ## Goals
 - Learn Linux filesystem layout
@@ -14,7 +13,6 @@ Platform: Linode Ubuntu instance
 Shell user: root  
 Hostname: localhost  
 Goal: Explore the Linux filesystem, understand directories, permissions, and document findings in GitHub.
-
 
 ## GitHub Setup
 
@@ -37,7 +35,6 @@ Create file → Commit → Push → Verify on GitHub
 ```
 
 I also practiced editing directly on GitHub and committing changes through the web interface.
-
 
 ## Command 1 — pwd
 
@@ -455,7 +452,6 @@ automation
 cloud security
 ```
 
-
 ## Reflection
 
 This lab started as simple filesystem exploration, but it became a deeper lesson in how Linux systems are structured.
@@ -478,5 +474,4 @@ I should follow this process:
 ```text
 Command → Output → Interpretation → Documentation
 ```
-=======
 ## uname -a
