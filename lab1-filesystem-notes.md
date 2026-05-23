@@ -1,13 +1,20 @@
 # Lab 1 — Filesystem Exploration
 
 ## Environment
+=======
+# Lab 1 - Filesystem Exploration
+## Goals
+- Learn Linux filesystem layout
+- Understand core directories
+- Practice command line navigation
+  
+## pwd
 
 Platform: Linode Ubuntu instance  
 Shell user: root  
 Hostname: localhost  
 Goal: Explore the Linux filesystem, understand directories, permissions, and document findings in GitHub.
 
----
 
 ## GitHub Setup
 
@@ -31,7 +38,6 @@ Create file → Commit → Push → Verify on GitHub
 
 I also practiced editing directly on GitHub and committing changes through the web interface.
 
----
 
 ## Command 1 — pwd
 
@@ -58,7 +64,6 @@ Important distinction:
 /root  = root user's home directory
 ```
 
----
 
 ## Command 2 — cd /root
 
@@ -79,7 +84,6 @@ Meaning:
 
 I moved from the root directory `/` into `/root`, which is the **root user's home directory**.
 
----
 
 ## Command 3 — cd / and ls
 
@@ -110,7 +114,6 @@ These are major Linux filesystem directories.
 
 Linux is organized like a tree, starting from `/`.
 
----
 
 ## Command 4 — ls /etc | head -20
 
@@ -138,7 +141,6 @@ Understanding:
 
 This helped me learn to infer file purpose from names.
 
----
 
 ## Command 5 — ls /home
 
@@ -152,7 +154,6 @@ Understanding:
 
 If Linux returns straight back to the prompt with no output, it usually means the directory is empty or there is nothing visible to list.
 
----
 
 ## Command 6 — ls -la /home
 
@@ -193,7 +194,6 @@ r-x = group can read and access, but not write
 r-x = others can read and access, but not write
 ```
 
----
 
 ## Linux Permission Line Breakdown
 
@@ -218,7 +218,6 @@ Plain English:
 
 This is a directory owned by the root user and root group. The owner has full control. Others can read/access but cannot modify it.
 
----
 
 ## Command 7 — ls -la /
 
@@ -262,7 +261,6 @@ Understanding:
 
 Regular users cannot casually mess with `/root` because it is the root/admin user's private home directory.
 
----
 
 ## /home vs /root
 
@@ -280,7 +278,6 @@ Multiple normal users may have home directories(apartments) inside it:
 
 Only root/admin should have access.
 
----
 
 ## Command 8 — whoami
 
@@ -300,7 +297,7 @@ Meaning:
 
 I was logged in as root.
 
----
+
 
 ## Prompt Breakdown
 
@@ -335,7 +332,6 @@ Root/admin users usually see:
 
 The `#` means I have elevated/root privileges and need to be careful.
 
----
 
 ## Command 9 — uname -a
 
@@ -363,7 +359,6 @@ x86_64    = 64-bit architecture
 GNU/Linux = operating system family
 ```
 
----
 
 ## Command 10 — cat /proc/meminfo
 
@@ -389,7 +384,6 @@ Better command for readability:
 cat /proc/meminfo | head -10
 ```
 
----
 
 ## Key Concepts Learned
 
@@ -433,7 +427,6 @@ rwx | r-x | r-x
 $ = normal user shell
 ```
 
----
 
 ## Cloud Engineering Connection
 
@@ -462,7 +455,6 @@ automation
 cloud security
 ```
 
----
 
 ## Reflection
 
@@ -486,3 +478,5 @@ I should follow this process:
 ```text
 Command → Output → Interpretation → Documentation
 ```
+=======
+## uname -a
