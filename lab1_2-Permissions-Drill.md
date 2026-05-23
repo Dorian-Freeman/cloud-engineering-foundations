@@ -1,1 +1,1 @@
-# Lab 1.2 — Permission Drills
+# Lab 1.2 — Permissions Drill
