@@ -1,4 +1,4 @@
-# Lab 1 — Filesystem Exploration
+# Lab 1.1 — Filesystem Exploration
 
 ## Environment
 # Lab 1 - Filesystem Exploration
