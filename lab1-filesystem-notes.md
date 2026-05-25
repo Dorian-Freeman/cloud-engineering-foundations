@@ -1,7 +1,7 @@
 # Lab 1.1 — Filesystem Exploration
 
 ## Environment
-# Lab 1 - Filesystem Exploration
+
 ## Goals
 - Learn Linux filesystem layout
 - Understand core directories
